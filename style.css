@@ -1,0 +1,238 @@
+body, h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+/* header-section */
+.my-header span {
+	background-color: #6278df;
+	padding: 5px 13px;
+	font-size: 26px;
+	border-radius: 13px;
+	margin-right: 8px;
+}
+
+.my-header .logo-text:hover {
+    color: #ddd;
+    transition: .3s;
+}
+.my-header .margin-left{
+    margin-left: 130px;
+	transition: .5s;
+}  
+.my-header .margin-left a:hover{
+ color:#6278df;
+}
+/* slider-section */
+.slider-section{
+	background-image: url(https://i.ibb.co/0rcr1dw/mbr-10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 170px 0;
+	position: relative;
+	z-index: 1;
+	
+}
+.slider-section::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: -1;
+}
+.slider-text input{
+	padding: 16px ;
+}
+.slider-text button{
+	padding: 14px 66px;
+	background-color: #5ba533;
+	transition: .5s;
+}
+.slider-text button:hover {
+	background: #ffff;
+	color: #6278df !important;
+	box-shadow: 5px 9px 42px -4px #6278df;
+}
+
+/* goal-section */
+.activity-goal-section{
+	background-color: #f7f9ff;
+
+}
+.goal-left-text {
+	margin-top: 117px;
+}
+
+/* teem-section */
+.teem-item{
+	height: 280px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.teem-item .teem-text{
+	width: 58%;
+	padding-left: 16px;
+}
+.teem-item .teem-img {
+	overflow: hidden;
+	width: 42%;
+	border-radius: 5px 0px 0px 5px;
+}
+.teem-item .teem-img .my-pic {
+	width: 220px !important;
+}
+.teem-item .teem-img img{
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -70px;
+}
+
+/* portfolio section */
+.portfolio-item:hover .portfolio-img::after{
+	visibility: visible;
+	opacity: 1;
+}
+.portfolio-item .portfolio-img{
+		position: relative;
+}
+.portfolio-item .portfolio-img:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(98, 120, 223, .4);
+	visibility: hidden;
+	opacity: 0;
+	transition: .4s;
+}
+
+/* prising section */
+.prising-section{
+	background-color: #f7f9ff;
+}
+.prising-item{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	box-sizing: border-box;
+	padding: 40px;
+}
+.prising-item ul{
+	list-style: none;
+	padding: 0;
+}
+.prising-item ul li span{
+	color:#6278df;
+	font-size: 28px;
+}
+.prising-item .my-btn .btn2{
+	background-color: #ffff;
+	color:#6278df ;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 15px 20px;
+	transition: .5s;
+}
+.prising-item .my-btn .btn2:hover{
+	color: #ffff;
+	background-color: black;
+}
+.prising-item:hover .btn2{
+	background-color: #6278df;
+	color: white;
+}
+
+/* testimonial section */
+.testimonial-text{}
+.testimonial-text .img-div{
+	width: 60%;
+}
+.testimonial-text .img-div img{
+	width: 90px;
+	height: 90px;
+}
+.testimonial-text .text {
+	width: 40%;
+	display: inline-block;
+	margin-left: -64px;
+	margin-top: 17px;
+}
+.testimonial-text .my-width{
+	width: 300px;
+}
+
+/* teem-history */
+.teem-history{
+	background-color:#f7f9ff ;
+}
+.card .img-div img{
+	width: 120px;
+	height: 120px;
+}
+.position{
+	position: relative;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.position .img-div {
+	position: absolute;
+	top: -60px;
+	left: 22px;
+	width: 100%;
+	height: 100%;
+}
+.position .btn-my {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+	padding: 8px 20px;
+	transition: .5s;
+}
+.position .btn-my:hover {
+	background-color: rgba(0, 0, 0, .8);
+	color: #fff;
+}
+
+/* form-section */
+.my-form{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.my-text .btn4{
+	background-color: #6278df;
+	color: #fff;
+	transition: .5s;
+	padding: 15px 20px;
+	font-weight: 900;
+}
+.my-text .btn4:hover{
+	color: #6278df;
+	background-color: #fff;
+}
+/* services-section */
+.button-div .btn5{
+	background-color: #ffff;
+	color: #5ba533;
+	padding: 12px 30px;
+	font-weight: 900;
+	border: 2px solid #5ba533;
+	transition: .5s;
+}
+.button-div .btn5:hover{
+	color: #ffff;
+	background-color: #5ba533;
+}
+.button-div .btn6{
+	color: #ffff;
+	background-color: #5ba533;
+	padding: 13px 30px;
+	font-weight: 900;
+	transition: .5s;
+}
+.button-div .btn6:hover{
+	color: #ffff;
+	background-color: black;
+	outline: none;
+}
